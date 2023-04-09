@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <!-- MENU  -->
+    <div class="main-menu">
+        
+        <ul>
+            <li><a href="tin.html"> Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a> </li>
+            <li><a href="register.html">Đăng ký</a> </li>
+            <li><a href="">Giỏ hàng</a> </li>
+            <div class="avatar-box">
+                <img class="main-avatar" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-user-19.png" alt="">
+                <button id="account"></button>
+                <button id="log-out">Log out ?</button>
+            </div>
+
+
+        </ul>
+       
+
+    </div>
+
+
+
+
+    <!-- REGISTER  -->
+    <p id="p_blur" class="register-h2">
+        Đ Ă N G K Ý
+    </p>
+    <div class="container">
+        <div id="box_blur" class="box">
+            <div id="error-box" class="error-box">
+                <p id="error-p" class="error-p"></p>
+            </div>
+
+            <input required class="input" id="username" type="text" placeholder="Username">
+            <input class="input" id="password" type="text" placeholder="Password ">
+            <input class="input" id="repeat_password" type="text" placeholder="Repeat password">
+            <div class="check-box">
+                <input id="checkbox" type="checkbox">
+                <p class="argee_term">I argee with the <b>Terms and Conditions</b> and the <b>Privacy Policy</b> </p>
+
+            </div>
+            <button id="btn1">Register</button>
+            <p class="sign_in">Already have an account ? <a href="login.html">Login</a></p>
+
+
+        </div>
+    </div>
+    <div class="error-block">
+
+    </div>
+</body>
+    <script src="register.js"></script>
+</html>

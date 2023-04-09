@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <form class="c-bmi">
+        <label class="c-bmi__label"><strong>Height</strong>
+          <input class="c-bmi__range" type="range" name="h" min="50" max="230" step="0.5" value="180" />
+          <output name="ho"><output>
+        </label>
+        <label class="c-bmi__label"><strong>Weight</strong>
+          <input class="c-bmi__range" type="range" name="w" min="0" max="200" step="0.1" value="75" />
+          <output name="wo">75</output>
+        </label>
+        <div class="c-bmi__result">Chỉ số BMI của bạn: <output name="r"></output></div>
+        <div class="c-bmi__groups" readonly>
+          <input type="radio" id="bmi-g0" name="g" />
+          <label for="bmi-g0">Thiếu cân</label>
+          <div class="c-bmi__group-text">Người có chỉ số BMI dưới 18,5 là thiếu cân và có thể cho thấy tình trạng suy dinh dưỡng, rối loạn ăn uống hoặc các vấn đề sức khỏe khác.</div>
+          <input type="radio" id="bmi-g1" name="g" checked />
+          <label for="bmi-g1">Bình thường</label>
+          <div class="c-bmi__group-text">Chỉ số BMI trong khoảng từ 18,5 đến 25 được coi là bình thường và khỏe mạnh. </div>
+          <input type="radio" id="bmi-g2" name="g" />
+          <label for="bmi-g2">Tiền béo phì</label>
+          <div class="c-bmi__group-text">Những người thuộc nhóm này có thể có nguy cơ mắc bệnh béo phì.<br />Nhóm này trước đây đã được phân loại là "thừa cân".</div>
+          <input type="radio" id="bmi-g3" name="g" />
+          <label for="bmi-g3">Béo phì I</label>
+          <div class="c-bmi__group-text">Những người có chỉ số BMI bằng hoặc trên 30 có thể mắc bệnh béo phì, được định nghĩa là sự tích tụ chất béo bất thường hoặc quá mức có thể gây hại cho sức khỏe.</div>
+          <input type="radio" id="bmi-g4" name="g" />
+          <label for="bmi-g4">Béo phì II</label>
+          <div class="c-bmi__group-text">Những người có chỉ số BMI bằng hoặc trên 30 có thể mắc bệnh béo phì, được định nghĩa là sự tích tụ chất béo bất thường hoặc quá mức có thể gây hại cho sức khỏe.</div>
+          <input type="radio" id="bmi-g5" name="g" />
+          <label for="bmi-g5">Béo phì III</label>
+          <div class="c-bmi__group-text">Bạn cần giảm cân</div>
+        </div>
+      </form>
+</body>
+<script src="index.js"></script>
+</html>
