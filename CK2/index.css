@@ -111,7 +111,7 @@
   }
   .c-bmi [type="radio"] { display: none; }
   
-  /* RWD */
+
   @media (min-width: 600px) {
     .c-bmi__groups { display: flex; }
     .c-bmi__groups input:checked + label::before {
@@ -127,5 +127,5 @@
     [for="bmi-g5"] { border-radius: 0 .25rem .25rem 0; }
   }
   
-  /* For this demo */
+
   body { max-width: 40rem; margin: 1rem auto; }
