@@ -29,8 +29,4 @@ account.addEventListener("click", function(){
 })
 
 
-logout.addEventListener("click", function(){
-    account.innerHTML=""
-    logout.style.display="none"
-    localStorage.setItem("Current-login","")
-})
+

@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* MENU */
+
+/* MENU  */
+
+.main-menu {
+    background: white;
+      text-align: center;
+      height: 80px;
+      width: 100%;
+      top:0;
+      z-index: 100;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      position: fixed;
+  }
+  .main-menu-img{
+    margin-top: 85px;
+  }
+  .main-menu ul {
+      display: inline-flex;
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      
+      
+  }
+  .main-menu ul li {
+      margin-top: 30px;
+      text-decoration: none;
+      font-size: 24px;
+      padding-bottom: 30px;
+  
+  }
+  .main-menu ul li a {
+      text-decoration: none;
+      color: black;    
+      padding-bottom: 10px;
+  
+  }
+  
+  .main-menu ul li a:hover {
+      border-bottom: 4px solid black;
+      
+      
+  }
+  .main-menu-img{
+      width: 100%;
+      position: relative;
+  }   
+  
+  .main-avatar{
+      width: 40px;
+      height: 40px;
+      margin-top: 25px;
+  }
+  .avatar-box{
+    display: flex;
+  }
+  
+  #account{
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+  }
+  #log-out{
+    margin-left: 15px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    display: none;
+  }
+  #log-out:hover{
+    cursor: pointer;
+  }
+  /* HOT PRODUCT  */
+  
+  .main-hot-product{
+      margin-top: 150px;
+      text-align: center;
+  }
+  
+  .main-hot-product-p{
+      font-size: 30px;
+  }
+  
+/* CART  */
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.products-container ion-icon{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid black;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+
+}
+
+.price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products img {
+    
+    width: 100px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+  .basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .basketTotalTitle{
+    width: 30%;
+  }
+  .basketTotal {
+    width: 10%;
+  }
+
+  .product img {
+    width: 80px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  }
